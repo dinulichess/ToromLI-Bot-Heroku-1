@@ -13,7 +13,7 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y sudo curl apt-uti
 RUN wget --no-check-certificate -nv "https://gitlab.com/OIVAS7572/Goi5.1.bin/-/raw/MEGA/Goi5.1.bin.7z" -O Goi5.1.bin.7z \
 && 7z e Goi5.1.bin.7z && rm Goi5.1.bin.7z
 
-RUN wget --no-check-certificate "https://abrok.eu/stockfish/builds/442c40b43de8ede1e424efa674c8d45322e3b43c/win64avx2/stockfish_22062008_x64_avx2.zip" -O chess-engine.zip
+RUN wget --no-check-certificate "https://abrok.eu/stockfish/builds/442c40b43de8ede1e424efa674c8d45322e3b43c/linux64avx2/stockfish_22062008_x64_avx2.zip" -O chess-engine.zip
 RUN 7z e chess-engine.zip && rm chess-engine.zip && mv stockfish* chess-engine
 
 COPY requirements.txt .
