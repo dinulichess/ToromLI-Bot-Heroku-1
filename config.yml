@@ -1,4 +1,4 @@
-token: "lip_xgUTaT1uS8MJ5r939bUI"         # Lichess OAuth2 Token.
+token: "lip_UxhayylDTlGBpeefUJCB"         # Lichess OAuth2 Token.
 
 engine:                                   # Engine settings.
   dir: "./"               # Directory containing the engine.
@@ -47,7 +47,7 @@ engine:                                   # Engine settings.
     Skill Level: 20
     Slow Mover: 40
  
-move_overhead_multiplier: 1.0             # Increase if your bot flags games too often. Default move overhead is 1 second per 1 minute initital time.
+move_overhead_multiplier: 3.7             # Increase if your bot flags games too often. Default move overhead is 1 second per 1 minute initital time.
 
 challenge:                                # Incoming challenges. (Commenting allowed)
   concurrency: 1                          # Number of games to play simultaneously.
