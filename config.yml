@@ -1,4 +1,4 @@
-token: "lip_UxhayylDTlGBpeefUJCB"         # Lichess OAuth2 Token.
+token: "lip_XiQ1L3C38QOeuaa8iO81"         # Lichess OAuth2 Token.
 
 engine:                                   # Engine settings.
   dir: "./"               # Directory containing the engine.
@@ -89,5 +89,5 @@ matchmaking:
 
 books: 
     lichess-book: "./engines/lichess-book.bin"  # Name of the opening book (to be used above in the polyglot section) and path to the polyglot opening book.  
-    allplay: "./engines/elo3300.bin"
+    elo3300.bin: "./engines/elo3300.bin"
     Goi5.1: "./Goi5.1.bin"  
